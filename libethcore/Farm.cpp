@@ -228,7 +228,7 @@ void Farm::setWork(WorkPackage const& _newWp)
     else
     {
         // Get the randomly selected nonce
-        _startNonce = m_nonce_scrambler;
+       // _startNonce = m_nonce_scrambler;
       _startNonce = 6221032862125220000;
      m_nonce_segment_with = 49;
     }
