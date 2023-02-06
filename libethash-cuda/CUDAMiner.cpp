@@ -259,6 +259,7 @@ void CUDAMiner::workLoop()
 
             // Eventually start searching
             search(current.header.data(), upper64OfBoundary, current.startNonce, w);
+            cnote << "search.startNonce " << current.startNonce;
         }
 
         // Reset miner and stop working
